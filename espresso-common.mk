@@ -29,10 +29,6 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 LOCAL_PATH := device/samsung/espresso-common
 
-# Recovery Ramdisk
-PRODUCT_PACKAGES += \
-    twrp.fstab
-
 # GPS
 PRODUCT_PACKAGES += \
     libgpsd-compat
