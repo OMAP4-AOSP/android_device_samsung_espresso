@@ -18,13 +18,13 @@
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage13.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/espresso/device.mk)
+$(call inherit-product, device/samsung/espressowifi/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-PRODUCT_NAME := aosp_espresso
-PRODUCT_DEVICE := espresso
+PRODUCT_NAME := aosp_espressowifi
+PRODUCT_DEVICE := espressowifi
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Galaxy Tab 2
 PRODUCT_MANUFACTURER := Samsung

@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_espresso.mk
+    $(LOCAL_DIR)/aosp_espressowifi.mk
