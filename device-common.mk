@@ -91,8 +91,7 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     lights.piranha \
-    libinvensense_mpl \
-    sensors.piranha \
+    sensors.omap4 \
     geomagneticd \
     orientationd
 
